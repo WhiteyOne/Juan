@@ -17,6 +17,18 @@ keyInObjectArray(objArray, 'age'); // => true
 keyInObjectArray(objArray, 'food'); // => false
 keyInObjectArray(objArray, 'animal'); // => false
 
+Polya's:
+#1 - Write a function "keyInObjectArray" that takes and array of:
+  #1.1 - Objects as first parameter.
+  #1.2 - String as the second.
+  #1.3 - Create a loop that iterates over each object.
+#2 Should have a return.
+  #2.1 - Will return "true" if any of the objects contain a key with
+          them
+  #2.2 - Will return "false" if it doesn't contain a key within them.
+  #2.3 - Check for the key with the return.
+
+
 ***********************************************************************/
 
 function keyInObjectArray(objArray, keyString) {
